@@ -227,7 +227,7 @@ function Editor(props) {
       <div className={styles.row}>
         <InputControl
           label="Name"
-          placeholder="Enter your full name eg. Aashu"
+          placeholder="Enter your full name eg. John Doe"
           value={values.name}
           onChange={(event) =>
             setValues((prev) => ({ ...prev, name: event.target.value }))
@@ -236,7 +236,7 @@ function Editor(props) {
         <InputControl
           label="Title"
           value={values.title}
-          placeholder="Enter your title eg. Frontend developer"
+          placeholder="Enter your title eg. Software developer"
           onChange={(event) =>
             setValues((prev) => ({ ...prev, title: event.target.value }))
           }
